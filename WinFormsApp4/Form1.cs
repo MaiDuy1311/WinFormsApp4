@@ -105,7 +105,7 @@ namespace WinFormsApp4
         {
             panel1.BringToFront();
             groupBox1.SendToBack();
-            int tt = a + b + c + d + e1 + f;
+            int tt = (a + b + c + d + e1 + f)*100;
             string vnd = tt.ToString();
             ThanhToan.Text = vnd;
         }
